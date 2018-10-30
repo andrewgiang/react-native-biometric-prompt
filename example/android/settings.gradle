@@ -1,0 +1,6 @@
+rootProject.name = 'example'
+
+include ':app'
+
+include ':react-native-biometric-prompt'
+project(':react-native-biometric-prompt').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-biometric-prompt/android')
